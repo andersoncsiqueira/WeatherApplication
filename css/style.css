@@ -1,0 +1,36 @@
+body {
+  animation: gradient 8s ease infinite;
+  background: linear-gradient(-45deg,rgb(11, 32, 68),#032663,rgb(23, 53, 105))no-repeat;
+  height: 100vh;
+  background-size: 300% 300%;
+}
+
+.container {
+  max-width: 400px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+.time-icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+@keyframes gradient {
+    0% { 
+      background-position: 0 50%;
+    }
+
+    50% {
+      background-position: 100% 50%;
+    }
+
+    100% {
+      background-position: 0 50%;
+    }
+}
